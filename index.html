@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>太阳系模拟</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <div id="info-panel" class="hidden">
+    <button id="close-panel">&times;</button>
+    <h2 id="planet-name"></h2>
+    <p id="planet-description"></p>
+    <ul id="planet-facts"></ul>
+  </div>
+
+  <div id="controls-hint">
+    <p>拖拽旋转 · 滚轮缩放 · 点击行星查看信息</p>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

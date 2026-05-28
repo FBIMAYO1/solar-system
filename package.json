@@ -1,0 +1,23 @@
+{
+  "name": "solar-system",
+  "version": "1.0.0",
+  "description": "Solar System 3D Simulation",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.14"
+  }
+}
